@@ -6,7 +6,5 @@ A system using MATLAB Mobile to collect sensor data such as acceleration, veloci
 🔗 https://thingspeak.mathworks.com/channels/2878088
 
 Demo Execution video
-Collect Mobile Sensor Data
 https://drive.google.com/file/d/1HOLTDHp4bSRIP4teo1x8P25zHBAHaEtK/view?usp=sharing
-MATLAB Code Execution 
 https://drive.google.com/file/d/1wFnTMvovmbaK6cZQo_Rr2o8Zw7Ca9Vk6/view?usp=sharing
