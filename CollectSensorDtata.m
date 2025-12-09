@@ -1,0 +1,14 @@
+fs = 100;  
+duration = 10;  
+m = mobiledev;  
+m.AccelerationSensorEnabled = 1; 
+m.AngularVelocitySensorEnabled = 1; 
+m.OrientationSensorEnabled = 1; 
+m.PositionSensorEnabled = 1; 
+m.Logging = 1;  
+pause(duration);  
+m.Logging = 0;  
+[accelData, accelTime] = accellog(m);  
+[gyroData, gyroTime] = angvellog(m);  
+[orientData, orientTime] = orientlog(m);  
+[positionData, positionTime] = poslog(m);  
